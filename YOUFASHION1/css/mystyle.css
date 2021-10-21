@@ -1,0 +1,186 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0px 0px 0px px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* You start your css below */
+
+@media only screen and (max-width: 750px) {
+    .body_mystyle {
+        width: 100%; 
+    }
+    
+    .top_bar {
+        width: 100%; 
+    }
+    
+    .logo_footer {
+      width: 200px;  
+    }
+    
+    .logo {
+    width: 400px;
+}
+}
+
+.body_mystyle {
+    font-family: "lucida sans unicode", "lucida grande", sans-serif;
+    background-image: url(../billeder/baggrund/baggrund_cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.top_bar {
+    background-color: white;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navitation__container {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(34, 65, 178, 0.21);
+}
+
+.mobileiconlable {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 5px 5px;
+    margin: 10px;
+}
+
+.menuitem {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.menuitem:hover {
+    background-color: white;
+    color: black;
+}
+
+.active_menuitem {
+    background-color: white;
+    color: black;
+}
+
+.menuitems__container,
+.mobileicon {
+    display: none;
+}
+
+.navigation__container input:checked ~ .menuitems__container {
+    display: block;
+}
+
+@media only screen and (min-width: 900px) {
+
+    .mobileiconlabel,
+    .mobileicon {
+        display: none;
+    }
+
+    .menuitems__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menuitem {
+        padding: 10px 20px;
+    }
+
+    .mobileiconlable {
+        display: none;
+    }
+    
+    .logo_footer {
+      width: 200px;  
+    }
+}
+
+.subscribe {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+.menupunkter_boks {
+    text-align: center;
+}
+
+
+.mobileivonlabel {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.footer {
+    background-color: white;
+    font-size: 0.6rem;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px
+}
+
+.footer_card {
+    padding-left: 20px;
+}
+
+.logo_footer {
+    width: 100px;
+}
+
+.some {
+    text-align: center;
+}
+
+.follow {
+    text-align: center;
+}
+
+.facebook_billede {
+    width: 40px;
+}
+
+.insta_billede {
+    width: 40px;
+}
+
+.links {
+    padding-right: 30px;
+}
+
+.hurtig_link {
+    display: block;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,97 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* -------- Article section ---------- */
+
+.video_section {
+    margin: 30px 0;
+}
+
+.video_inner_section {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.search_form {
+    margin: 10px;
+}
+
+.search_form_text {
+    border: 1px solid black;
+    padding: 5px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video_inner_flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin-bottom: 25px;
+    background-color: white;
+    margin-right: 80px;
+    margin-left: 80px
+}
+
+.video {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video_text {
+    background-color: white;
+    color: black;
+}
+
+.section_heading {
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (min-width: 900px) {
+    .video_inner_section {
+        margin: 0px auto;
+    }
+
+    .video_inner_flexbox {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .search_form {
+        width: 25%;
+        margin-left: 35px;
+    }
+
+    .card {
+        width: 500px;
+        margin: 10px auto;
+    }
+
+    .video {
+        width: 500px;
+        margin: auto;
+    }
+}

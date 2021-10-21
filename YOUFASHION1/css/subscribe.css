@@ -1,0 +1,138 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* You start your css below */
+
+.subscribe_main {
+    background-color: white;
+    margin: 10px 20px;
+}
+
+.header {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.brodtext {
+    padding: 20px 60px 5px 60px;
+    font-size: 0.9rem;
+}
+
+.unsup::before {
+    content: '\002A';
+    font-size: 1.2rem;
+}
+
+.unsup {
+    font-size: 0.7rem;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 20px;
+}
+
+.sub {
+    padding: 20px 60px;
+}
+
+.sub_block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hvad {
+    font-size: 1.3rem;
+    padding: 0px 0px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skriv {
+    border: 1px solid black;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    text-decoration: none;
+    display: block;
+    width: 200px;
+}
+
+.link_unsub {
+    text-decoration: none;
+}
+
+.subscribe {
+    background-color: black;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.until {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .subscribe_main {
+        background-color: white;
+        margin: 10px 300px;
+    }
+
+    .sub_block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sub {
+        padding: 20px 60px;
+        margin-top: 30px;
+    }
+
+    .hvad {
+        font-size: 1.3rem;
+        padding: 0px 60px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -30px;
+    }
+
+    .skriv {
+        border: 1px solid black;
+        padding: 10px;
+        display: block;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,47 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* You start your css below */
+
+.kontakt_main {
+    background-color: white;
+    margin: 10px 20px;
+}
+
+.header {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.brodtext {
+    padding: 20px 60px;
+    font-size: 0.9rem;
+}
+
+.until {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+@media only screen and (min-width: 900px) {
+    .kontakt_main {
+        background-color: white;
+        margin: 10px 300px;
+    }
+}

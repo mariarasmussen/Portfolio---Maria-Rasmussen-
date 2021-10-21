@@ -1,0 +1,80 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* You start your css below */
+
+.insta_main {
+    background-color: white;
+    margin: 10px 20px;
+}
+
+.instag_cover {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+
+.instag_billede {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.insta_text {
+    padding: 20px 60px;
+    font-size: 0.9rem;
+}
+
+.maria_link {
+    color: black;
+    text-decoration: none;
+}
+
+.liste {
+    font-size: 0.9rem;
+    padding-left: 80px;
+}
+
+.until {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+@media only screen and (min-width: 1150px) {
+    .insta_main {
+        background-color: white;
+        margin: 10px 70px;
+    }
+
+    .instag_cover {
+        width: 900px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60px;
+    }
+
+    .instag_billede {
+        width: 900px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

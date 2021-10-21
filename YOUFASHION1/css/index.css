@@ -1,0 +1,57 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* You start your css below */
+
+.forside_billede {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.link {
+    text-decoration: none;
+    display: block;
+    width: 200px;
+}
+
+.subscribe {
+    background-color: white;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media only screen and (min-width: 900px) {
+    .forside_billede {
+        width: 700px;
+    }
+    
+    .link {
+        width: 200px; 
+    }
+    
+    .subscribe {
+        font-size: 1.5rem;
+    }
+}
